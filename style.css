@@ -1,0 +1,417 @@
+
+body {
+    font-family: 'Merriweather', serif;
+
+}
+
+header ul {
+    padding-top: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+header li {
+    margin-right: 25px;
+}
+
+.fixed-top {
+    font-weight: 300;
+    height: 155px;
+    background-color: #003c5a;
+    padding-top: 50px;
+}
+
+nav a {
+    color: grey;
+}
+
+a:hover {
+    color: white;
+}
+
+a {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+}
+
+.navbar-brand,
+.navbar-text {
+    color: white;
+}
+
+.navbar-brand {
+    margin-top: -8px;
+
+    font-weight: 700;
+    font-size: 1.875em;
+}
+
+.nav-item {
+    font-weight: 300;
+    font-size: 0.750em;
+}
+
+.a {
+    margin-top: 155px;
+}
+
+.bg-secondary-darken {
+    background: #003c5a;
+    color: white;
+}
+
+.bg-image {
+    background-image: url('images/bg1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+     height: 700px
+}
+
+.btn1-primary {
+    background: #fc8f44;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+
+.btn1-primary:hover {
+
+    background: #FFB75E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F9A870, #FFB75E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F9A870, #FFB75E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnun {
+    background: #fc8f44;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-left: 6%;
+
+}
+
+.btnun:hover {
+    background: #FFB75E;
+    background: -webkit-linear-gradient(to bottom, #F9A870, #FFB75E);
+    background: linear-gradient(to bottom, #F9A870, #FFB75E);
+}
+
+h5 {
+    color: #66b8e0;
+    font-family: "merriweather Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.33;
+
+
+}
+
+h1 {
+    padding-top: 70px;
+    font-size: 30px;
+    line-height: 1.3;
+    letter-spacing: px;
+
+}
+
+.un,
+.deux,
+.trois,
+.quatre,
+.cinq {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+.un p {
+    padding-bottom: 10%
+}
+
+.un a {}
+
+.un h3,
+.un p,
+.un a {
+    margin-top: 40px;
+}
+
+.a h5 {
+    margin-bottom: 40px;
+}
+
+.a h1 {
+    margin-bottom: 10px;
+}
+
+.un h2 {
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: 2.5em;
+}
+
+.un,
+.trois {
+    background-color: #EDF4F8;
+}
+
+.quatre {
+    background-color: #003C5A;
+}
+
+.cinq {
+    background-color: #E76E33;
+}
+
+footer {
+    background-color: #272727;
+}
+
+footer a {
+    padding-right: 10px;
+}
+
+footer p {
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 0.7em;
+    color: grey;
+}
+
+.un p {
+    font-size: .88em;
+    font-family: merriweather sans, sans-serif;
+    font-weight: 050;
+    line-height: 1.9;
+}
+
+.un h3 {
+    font-weight: 300;
+    font-size: 1.99em;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+
+.deux article {
+    margin-top: 60px;
+}
+
+footer ul {
+
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.quatre h2 {
+    font-size: 2.5em;
+    margin-bottom: 1%;
+}
+
+.quatre {
+    color: whitesmoke
+}
+
+.quatre p {
+    font-family: merriweather sans, sans-serif;
+    font-weight: 100;
+    color: #307699
+}
+
+.btn {
+    background: #fc8f44;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-family: merriweather sans, sans-serif;
+    align-content: center;
+    border: solid 1px rgba (0 0 0 500)
+}
+
+.btn:hover {
+    background: #FFB75E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F9A870, #FFB75E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F9A870, #FFB75E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.inputmail {
+    width: 50%;
+    height: 40px;
+    padding: 2%;
+    border-radius: 100px;
+    margin-right: 3%;
+    font-family: merriweather sans, sans-serif;
+    margin-bottom: 10px;
+}
+
+article h3,
+p {
+    color: #555555
+}
+
+.cinq h2 {
+    font-size: 3em;
+    color: white;
+}
+
+.cinq p {
+    font-family: merriweather, sans-serif;
+    font-size: 1.5em;
+    padding: 1%;
+    font-weight: 100;
+    color: white;
+}
+
+.cinq img {
+    padding: 2%
+}
+
+.cinq cite {
+    font-size: 1em;
+    color: aliceblue;
+    font-weight: 900;
+    font-family: merriweather sans, sans-serif;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    padding-top: 10%
+}
+
+.deux h3 {
+    margin-bottom: 5%;
+}
+
+.deux h2 {
+    font-size: 2.6em;
+    font-weight: 100;
+}
+
+.deux p {
+    color: #B0B0B0;
+    font-size: 0.86em;
+    font-weight: 300;
+    padding-bottom: 20px;
+    font-family: merriweather sans, sans-serif;
+}
+
+.deux h3 {
+    font-size: 1.4em;
+    color: #555555;
+    padding-bottom: 20px
+}
+
+.trois h2 {
+    font-size: 2.2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    padding-bottom: 20px;
+    margin-right: -4%
+}
+
+.trois h3 {
+    font-size: 1.8em;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    color: #555555;
+}
+
+.trois p {
+    font-size: 0.8em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-right: -4%;
+    color: #7D7D7D;
+
+}
+
+.icon-phone-circled {
+    font-size: 30px;
+    float: right;
+
+}
+
+.img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: -10px
+}
+
+.p-2 {
+    font-size: 1.5em;
+    margin-top: 8px;
+    color: white;
+}
+.fleche {
+    height: 50px;
+    position: fixed;
+    border: 1px solid rgba ( 0 0 0 500 );
+    border-radius: 50px;
+    top: 940px;
+    left: 10px;
+    padding: 10px;
+    
+}
+.fleche:hover {
+    border: solid 1px rgba (0 0 0 500);
+    border-radius: 50px;
+    padding: 0%;
+    
+        
+    
+    
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1500px) {
+    .bg-image {
+        height: 600px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .bg-image {
+        height: 550px;
+    }
+}
+
+@media all and (max-width:991px) {
+    h2,
+    h3,
+    p {
+        text-align: center;
+    }
+}
+
+
+@media all and (max-width: 720px) {
+    .bg-image {
+        height: 500px;
+    }
+}
+
+@media all and (max-width:700px) {
+    .inputmail {
+        width: 230px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .bg-image {
+        height: 400px;
+    }
+}
